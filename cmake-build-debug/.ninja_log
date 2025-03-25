@@ -1,0 +1,8 @@
+# ninja log v6
+81	542	7645468737987218	CMakeFiles/blackjack.dir/Baraja.cpp.obj	6369c3bb686825ce
+57	1505	7645468737747176	CMakeFiles/blackjack.dir/Jugador.cpp.obj	71812a6f6a18e809
+13	1130	7645469691583831	CMakeFiles/blackjack.dir/main.cpp.obj	7db94c77e368f5e0
+40	1448	7645469691857202	CMakeFiles/blackjack.dir/Juego.cpp.obj	9b89ad60a70d69ba
+1449	2016	7645469705943252	blackjack.exe	62101e8d6fa82ede
+17	1457	7645474610008873	CMakeFiles/blackjack.dir/Juego.cpp.obj	9b89ad60a70d69ba
+1459	2002	7645474624425605	blackjack.exe	62101e8d6fa82ede
