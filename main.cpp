@@ -2,6 +2,6 @@
 
 int main() {
     Juego juego;
-    juego.iniciar();
+    juego.menuPrincipal();
     return 0;
 }

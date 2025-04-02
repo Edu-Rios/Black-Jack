@@ -1,4 +1,3 @@
-// ==================== Juego.hpp ====================
 #ifndef JUEGO_HPP
 #define JUEGO_HPP
 
@@ -14,10 +13,12 @@ private:
 
 public:
     Juego();
-    void iniciar();
-    void pedirCarta(Jugador &jugador);
+    void menuPrincipal();
+    void iniciarRonda();
+    void turnoJugador(Jugador &jugador);
     void turnoBanca();
     void determinarGanador();
+    void agregarJugador();
+    void eliminarJugador();
 };
-
 #endif // JUEGO_HPP

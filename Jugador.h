@@ -2,6 +2,7 @@
 #define JUGADOR_HPP
 
 #include <string>
+#include "Baraja.h"
 
 class Jugador {
 private:
@@ -11,12 +12,13 @@ private:
 
 public:
     Jugador();
-    Jugador(std::string nombre, float dinero);
-    void pedirCarta(class Baraja &baraja);
-    void recibirCarta(int valor);
+    Jugador(std::string nom, float din);
+
+    void pedirCarta(Baraja &baraja);
+    void resetearPuntos();
+
     int getPuntos() const;
     std::string getNombre() const;
-    void ganarApuesta();
 };
 
 #endif // JUGADOR_HPP
