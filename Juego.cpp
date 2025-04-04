@@ -37,7 +37,7 @@ void Juego::menuPrincipal() {
                 cout << "Saliendo del juego..." << endl;
                 break;
             default:
-                cout << "Opción inválida." << endl;
+                cout << "Opcion invalida." << endl;
         }
 
     } while (opcion != '4');
@@ -96,10 +96,10 @@ void Juego::turnoJugador(Jugador &jugador) {
     do {
         cout << jugador.getNombre() << " tienes " << jugador.getPuntos() << " puntos." << endl;
 
-   
+
         if (jugador.getPuntos() >= 21) {
             cout << "Te has pasado de 21 puntos" << endl;
-            break;  /
+            break;
         }
 
         cout << "Quieres otra carta? (s/n): ";
