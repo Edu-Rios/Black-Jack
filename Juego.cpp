@@ -94,7 +94,14 @@ void Juego::iniciarRonda() {
 void Juego::turnoJugador(Jugador &jugador) {
     char opcion;
     do {
-        cout << jugador.getNombre() << " tienes " << jugador.getPuntos() << " puntos" << endl;
+        cout << jugador.getNombre() << " tienes " << jugador.getPuntos() << " puntos." << endl;
+
+   
+        if (jugador.getPuntos() >= 21) {
+            cout << "Te has pasado de 21 puntos" << endl;
+            break;  /
+        }
+
         cout << "Quieres otra carta? (s/n): ";
         cin >> opcion;
         if (opcion == 's' || opcion == 'S') {
